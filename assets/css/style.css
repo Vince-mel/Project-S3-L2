@@ -18,14 +18,16 @@ main {
     width: 600px;
     margin: 2em auto;
     
-    border: 2px solid black;
-    background-color: bisque;
+    border: 2px solid rgba(255, 255, 255, 0.926);
+    background-color: #AC7D56;
     border-radius: 20px;
     margin-bottom: 20px;
+   
 }
 
 h1 {
-    color: #333;
+    color: #2089c5;
+    font-size: 2.2em;
 }
 
 #todo-form {
@@ -35,13 +37,15 @@ h1 {
 #todo-input {
     padding: 10px;
     width: 70%;
+    border-radius: 20px;
 }
 
 button {
     padding: 10px 20px;
-    background-color: #007BFF;
-    color: white;
+    background-color: #2089c5;
+    color: rgb(0, 0, 0);
     border: none;
+    border-radius: 20px;
 }
 
 ul {
@@ -52,9 +56,14 @@ li {
     background-color: #ddd;
     padding: 10px;
     margin-bottom: 10px;
+    border-radius: 20px;
 }
 
-#delete-button {
+li button {
     display: inline-block;
     margin-left: 3em;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #2089c5;
+    color: rgb(0, 0, 0);
 }
