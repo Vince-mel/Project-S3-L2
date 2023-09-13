@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("https://www.crushpixel.com/big-static13/preview4/top-view-with-copy-space-1115594.jpg");
+    
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    padding: 50px;
+    padding-bottom: 200px;
+    width: 600px;
+    margin: 2em auto;
+    
+    border: 2px solid black;
+    background-color: bisque;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#todo-form {
+    margin-bottom: 20px;
+}
+
+#todo-input {
+    padding: 10px;
+    width: 70%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    background-color: #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#delete-button {
+    display: inline-block;
+    margin-left: 3em;
+}
